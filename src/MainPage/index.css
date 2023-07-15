@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.container > div:nth-child(1) {
+    width: 70%;
+}
+.container > div:nth-child(2) {
+    width: 30%;
+}
+

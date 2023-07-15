@@ -1,0 +1,16 @@
+.rank{
+    padding-left: 60px;
+}
+
+.rank-header{
+    display: flex;
+    justify-content: space-between;
+    color:#ffb400;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.rank-header > div:nth-child(1){
+    font-size: 26px;
+    font-weight: bold;
+}

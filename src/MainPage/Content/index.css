@@ -1,0 +1,44 @@
+.panel-header{
+    display: flex;
+    justify-content: space-between;
+    color:#e82a2b;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.panel-header > div:nth-child(1){
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.panel-header > div:nth-child(2){
+    font-size: 14px;
+}
+
+.panel-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ant-card-meta-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ant-card-body{
+    padding: 10px !important;
+}
+
+.ant-card-actions{
+    transition: all 0.3s;
+}
+.ant-card-actions:hover{
+   background-color: #e82a2b;
+}
+.ant-card-actions:hover > li > span{
+    color: #fff;
+}
+.buyTickets:hover{
+    color: #fff;
+}
